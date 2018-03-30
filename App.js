@@ -8,7 +8,7 @@ export default class App extends React.Component {
   render() {
     return (
       <Provider store={store}>
-      <View style={styles.container}>
+      <View>
       <Schools/>
       </View>
       </Provider>

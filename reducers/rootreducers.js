@@ -10,7 +10,6 @@ const schoolreducer=(state,action)=>{
         ...state,
         item:action.payload
     }
-    console.log(newState);
     return newState;
 }
 
